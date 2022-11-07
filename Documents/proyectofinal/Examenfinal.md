@@ -10,6 +10,8 @@ Algunos de los servicios que ofrece un sistema operativo son:
 - Administración de la protección y seguridad
 - Leer el estado del sistema
 
+![Alt text](https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png)
+
 ## ¿Qué es el OpenSource?
 
 - Import a HTML file and watch it magically convert to Markdown
