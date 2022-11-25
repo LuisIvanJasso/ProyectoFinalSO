@@ -74,6 +74,7 @@ A pesar de que teóricamente las unidades de almacenamiento pueden subir de form
 ![Alt text](https://i.ytimg.com/vi/yK9fvJ7Mmhg/maxresdefault.jpg)
 ### Tabla de conversiones de almacenamiento
 Para convertir una unidad menor a una mayor se divide entre la cantidad indicada y para convertir una unidad mayor a una menor se multiplica por la cantidad indicada.
+
 ![Alt text](https://4.bp.blogspot.com/-TkQXe0rIK9U/WPqd-tb2zNI/AAAAAAAAB0c/ZUtnahEDzCY_7QbGmIZ6Udssld2PJ6XaACLcB/s1600/Unidades.PNG)
 ### Dispositivos de almacenamiento
 - Disco duro
@@ -92,4 +93,55 @@ Los usuarios y sobretodo los programadores buscan una memoria muy rápida, muy g
 Parece no existir una memoria que cumpla con los tres factores primordiales, por lo que se tiene que buscar un balance entre los tres factores. 
 Existe un digrama donde se organizan las memorias en una pirámide poniendo los dispositivos de almacenamiento pequeño, rápidos y caros en la punta y conforme desciende los dispositvos de almacenamiento se vuelven más grandes, lentos y baratos.
 ![Alt text](https://weblinus.com/wp-content/uploads/2021/02/PiramideMem.jpeg)
+## Virtualización de CPU, Virtualización de Memoria, Concurrencia y Persistencia
+### Virtualización de CPU
+La virtualización del CPU hace referencia a una tecnología que permite la ejecución de varias máquinas virtuales sobre una máquina física con el objetivo de aprovechar al máximo los recursos de un sistema y que su rendimiento sea mayor.
 
+### Virtualización de memoria
+Crear una memoria de función compartida mediante una distribución en la red para que los distintos equipos la utilicen. Ofrece ventajas similares al almacenamiento en red.
+### Concurrencia
+La habilidad de distintas partes de un proceso de ejecutarse en desorden, sin afectar el resultado final, esto debido a que pueden ser ejecutados en múltiples procesadores o en distintos hilos de ejecución.
+### Persistencia
+Se refiere a la habilidad que tienen los datos de preservar su información de forma permanente.
+## Instalación de Ubuntu
+### Requerimientos
+- Descargar Ubuntu Desktop 20.04 ISO image para arquitectura de x86_64bits
+- Descargar aplicación Rufus
+
+### Crear espacio libre en disco duro
+- Paso 1: Abrir la terminal y ejecutar el comando diskmgmt.msc para abrir la aplicación de Disk Management.
+- Paso 2: Seleccionar la partición que se desea segmentar (normalmente la C:), hacer click derecho y seleccionar la opción Shrink Volume para reducir el tamaño de la partición del disco.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Windows-Disk-Management-Tool.png)
+- Paso 3: Asignar la cantidad de MB que se desea asignar a la nueva partición.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Shrink-Windows-Partition.png)
+- Paso 4: Tras la asignación de alamcenamiento, aparecerá la nueva partición como "Unallocated" que significa "no asignado".
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/New-Unallocated-Partition.png)
+### Instalación y configuración de Ubuntu
+- Paso 1: Reiniciar el equipo y presionar la tecla F12, F10 o F2 para iniciar con la instalación de Ubuntu.
+- Paso 2: En la primera pantalla, elegir la opción de instalar Ubuntu.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Install-Ubuntu-20.04-Desktop.png)
+- Paso 3: En la segunda pantalla elegir la opción de teclado.
+- Paso 4: En la siguiente pantalla elegir el tipo de instalación, "Normal" o "Minimal"; se recomienda instalar la opción de "Normal" ya que la opción "Minimal" está más limitada.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Select-Ubuntu-Installation-Type.png)
+- Paso 5: En la pantalla siguiente, elegir como tipo de instalación la última opción.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Choose-Ubuntu-Manual-Partition.png)
+- Paso 6: En la pantalla de selección del espacio donde se instalará Ubuntu, seleccionar el espacio previamente liberado y presionar el botón de +.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Choose-Free-Space-Partition.png)
+- Paso 7: En la ventana emergente, elegir las siguientes opciones en los siguientes recuadros: 
+    * Size (Tamaño) = Tamaño de la partción previamente asignada en MB.
+    * Type for the new partition (Tipo de la nueva partción) = Primary
+    * Location for the new partition (Localización de la nueva partición) = Beginning of this space
+    * Use as (Usar como) = EXT4 journaling file system
+    * Mount point (Punto de montaje) = /
+
+  Tras llenar estas opciones presionar el botón de OK para regresar a la pantalla anterior.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Create-Root-Ubuntu-Partition.png)
+- Paso 8: Seleccionar la ya configurada partición y presionar "Install Now". Aparecerá una pantalla emergente pero solo hay que presionar al botón de continuar.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Partition-Table-Summary.png)
+- Paso 9: Seleccionar la región donde uno vive en un mapa para registrar la zona horaria.
+- Paso 10: Configurar el nombre de usuario y la contraseña. Al igual que elegir a consideración de cada quien si desea pedir la contraseña o no al iniciar el equipo. Posteriormente iniciará el proceso de instalación.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Create-Ubuntu-User.png)
+- Paso 11: Esperar a que se termine la instalación hasta que aparezca una ventana emergente pidiendo reiniciar el equipo.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Ubuntu-Installation-Finishes.png)
+- Paso 12: Tras reiniciar el equipo, la pantalla del GNU GRUB debe aparecer y se elige la opción de Ubuntu. De no aparecer el menú GNU GRUB, se debe reinicar el equipo nuevamente y en la BIOS cambiar la prioridad de inicio. Con esto se habrá completado la instalación y configuración de Ubuntu.
+![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Ubuntu-Grub-Menu.png)
