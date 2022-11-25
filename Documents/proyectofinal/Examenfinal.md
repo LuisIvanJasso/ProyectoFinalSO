@@ -10,177 +10,86 @@ Algunos de los servicios que ofrece un sistema operativo son:
 - Administración de la protección y seguridad
 - Leer el estado del sistema
 
-![Alt text](https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png)
-
 ## ¿Qué es el OpenSource?
+También denominado código abierto, se refiere cuando un software permite al usuario poder utilizar el código fuente para realizar cambios y modificaciones a preferencia del usuario.
+Las principales características de un código open source son:
+- Habilidad de ser copiado, modificado y editado por terceros sin ningún costo.
+- Acceso completo al código fuente.
+- La licencia del software debe permitir cambios y modificaciones.
+- Debe ser disponible a todos los tipos de usuarios.
+- La licencia debe poderse compartir por cualquier medio.
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+Ejemplos de programas Open Source:
+- GNU Compiler Collection (Conjunto de herramientas de compilación para C,C++)
+- GNOME (Entorno de escritorio del sistema operativo Linux)
+- KDE (Entorno de escritorio del sistema operativo Linux)
+- Moodle (Sistema de aprendizaje virtual)
+- Firefox (Navegador web basado en Mozilla)
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+## Comandos básicos de la terminal UNIX
+- cd (Cambiar de carpeta o directorio)
+- cd .. (Retroceder una carpeta o directorio)
+- pwd (Nombrar el directorio en el que se encuentra actualemente el usuario)
+- ls (Mostrar los archivos en esa carpeta o directorio)
+- ls -la (Mostrar los archivos, incluyendo los ocultos, en esa carpeta o directorio con información extra)
+- mkdir newFolder (Crear una carpeta dentro del directorio actual)
+- touch fileName (Crear un archivo dentro de la carpeta o directorio actual)
+- rm fileName (Eliminar un archivo con el nombre indicado)
+- vim fileName (Abrir un archivo con el editor vim)
+- history (Muostrar el historial de comandos)
+- git init (Iniciar un repositorio de git)
+- git add . (Agregar todos los cambios en la máquina local)
+- git commit -m "mensaje" (Guardar un cambio hecho en el repositorio)
+- git push (Subir cambios al cliente remoto del usuario como github)
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+## Dispositos de entrada/salida
+### Dispositivos de entrada
+Los dispositivos de entrada son aquellos equipos encargados de introducir datos en la memoria central de la computadora para su tratamiento. A través de ellos se transforma la información de entrada en señales eléctricas.
+Ejemplos de dispositos de entrada:
+- Teclado
+- Mouse
+- Cámara de video o webcam
+- Lectora de código de barras
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
+### Dispositivos de salida
+Los dispositivos de salida son los equipos que presentan la información al usuario de forma comprensible, ya sea a través de imágenes, texto, sonido o táctil. Estos realizan la función de extraer datos de la memoria central hacia el exterior.
+Ejemplos de dispositivos de salida:
+- Pantalla o monitor
+- Bocinas
+- Impresora
+- Robot
 
-## Tech
+### Dispositivos mixtos
+Los dispositivos mixtos permiten la introducción y extracción de datos en la memoria central.
+Ejemplos de dispositivos mixtos:
+- Pantalla o monitor táctil
+- Impresora multifunción con funciones de imprimir, escanear y fotocopiar
 
-Dillinger uses a number of open source projects to work properly:
+## Almacenamiento
+### Unidades de almacenamiento
+La unidad mínima de almacenamiento es el bit [b]. El bit es simplemente un cero o uno.
+El Byte [B] está compuesto por 8 bits y es aproximadamente un caracter.
+### Tabla de unidades de almacenamiento
+A pesar de que teóricamente las unidades de almacenamiento pueden subir de forma infinita, actualmente no hay capacidad de memoria en existencia que exceda la brecha de los terabytes.
+![Alt text](https://i.ytimg.com/vi/yK9fvJ7Mmhg/maxresdefault.jpg)
+### Tabla de conversiones de almacenamiento
+Para convertir una unidad menor a una mayor se divide entre la cantidad indicada y para convertir una unidad mayor a una menor se multiplica por la cantidad indicada.
+![Alt text](https://4.bp.blogspot.com/-TkQXe0rIK9U/WPqd-tb2zNI/AAAAAAAAB0c/ZUtnahEDzCY_7QbGmIZ6Udssld2PJ6XaACLcB/s1600/Unidades.PNG)
+### Dispositivos de almacenamiento
+- Disco duro
+- DVD
+- CD
+- Memoria USB
+- Tarjeta SD
+- Disquete
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+## Jerarquía de memoria
+Los usuarios y sobretodo los programadores buscan una memoria muy rápida, muy grande y bajo costo. Sin embargo, al buscar esto, se introduce el siguiente paradigma:
+- Muy rápida = Pequeña + cara
+- Muy grande = Lenta + barata
+- Bajo costo = Grande + lenta
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-## Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-cd dillinger
-npm i
-node app
-```
-
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
-
-## Plugins
-
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-## Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
-#### Building for source
-
-For production release:
-
-```sh
-gulp build --prod
-```
-
-Generating pre-built zip archives for distribution:
-
-```sh
-gulp build dist --prod
-```
-
-## Docker
-
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the
-Dockerfile if necessary. When ready, simply use the Dockerfile to
-build the image.
-
-```sh
-cd dillinger
-docker build -t <youruser>/dillinger:${package.json.version} .
-```
-
-This will create the dillinger image and pull in the necessary dependencies.
-Be sure to swap out `${package.json.version}` with the actual
-version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on
-your host. In this example, we simply map port 8000 of the host to
-port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
-```
-
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
-
-Verify the deployment by navigating to your server address in
-your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
-## License
-
-MIT
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
+Parece no existir una memoria que cumpla con los tres factores primordiales, por lo que se tiene que buscar un balance entre los tres factores. 
+Existe un digrama donde se organizan las memorias en una pirámide poniendo los dispositivos de almacenamiento pequeño, rápidos y caros en la punta y conforme desciende los dispositvos de almacenamiento se vuelven más grandes, lentos y baratos.
+![Alt text](https://weblinus.com/wp-content/uploads/2021/02/PiramideMem.jpeg)
 
