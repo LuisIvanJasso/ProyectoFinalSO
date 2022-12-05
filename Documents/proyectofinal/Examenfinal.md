@@ -65,6 +65,48 @@ Ejemplos de dispositivos mixtos:
 - Pantalla o monitor táctil
 - Impresora multifunción con funciones de imprimir, escanear y fotocopiar
 
+## Procesos
+Un proceso es el nombre que se le da a la ejecución de un programa individual, representado por una serie de instrucciones que el procesador debe ejecutar.
+La UCP (Unidad Central de Procesos) es quien se encarga de ordenar la ejecución de los procesos según diversos factores.
+Un proceso puede tener subprocesos con sus propias series de instrucciones y consumo de recursos propios. Los subprocesos reciben el nombre de hebras o hilos.
+### Características de un proceso
+- Identificador: Número entero que se le asigna a un proceso para distinguirlo del resto.
+- Estado: Acción que está realizando un proceso en un preciso momento.
+- Prioridad: Orden en el que se ejcuta un proceso con respecto a otros.
+- Contador de programa: Dirección de la siguinete instrucción a realizar de un programa.
+- Punteros a memoria: Variable que almacena la dirección de memoria de un objeto.
+- Datos de contexto: Datos que están presentes en los registros del procesador cuando el proceso está corriendo.
+- Información de estado de E/S: Peticiones de E/S pendientes o dispositivos de E/S asignados a dicho proceso, lista de ficheros en uso por el mismo, entre más acciones relacionadas con E/S.
+- Información de auditoría: Cantidad de tiempo del procesador, límites de tiempo, registros contables, entre más.
+
+### Estados del proceso
+- Nuevo: Se soilicita al sistema operativo la creación de un proceso. En este estado sus recursos y estrucutras están siendo creadas.
+- Preparado: El proceso se encuentra listo para iniciar o continuar su ejecución, aunque necesita ser asignado a un procesador.
+- En ejecución: El proceso se encuentra realizando aquello que se le haya asignado hacer en algún procesador.
+- Bloqueado: En espera de algún evento para poder continuar su ejecución.
+- Terminado: Ejecución del proceso ha sido terminada. A la espera de que sus estrcuturas sean limpiadas por el sistema operativo.
+![Alt text](https://sites.google.com/site/materiasisoperativo/_/rsrc/1368848046104/unidad-2-administrador-del-proceso-y-del-procesador/2-2-estados-y-transiciones-de-los-procesos/estados%20de%20procesos.png)
+
+### Ejemplo de un proceso
+**Proceso**: Imprimir un archivo de Word.
+- Nuevo: En la pestaña de imprimir se presiona el botón Imprimir.
+- Preparado: El proceso es admitido y es asignado a un procesador.
+- En ejecución: El proceso entra a ejecutarse pero se ve bloqueado al no detectar un dispositivo de E/S.
+- Bloqueado: El proceso requiere de que la impresora (dispositivo de E/S) esté conectada.
+- Preparado: Una vez la impresora se conecta, el proceso vuelve a ser admitido y llama a ser ejecutado.
+- En ejecución: El documento de Word empieza a imprimirse.
+- Terminado: El documento es impreso de forma exitosa y el proceso se ve finalizado.
+
+### Interrupciones y planificadores de procesos
+**Interrupción**: Señal recibida por el procesador de una computadora que indica que debe interrumpir el curso de ejecución actual y pasar a ejecutar código específico para tratar esta situación.
+**Planificador de procesos**: Forma en que se pueden acomodar los procesos para ser ejecutados. Existen varios tipos:
+- FCFS (First Come First Served)/FIFO (First In First Out): Ejecución de procesos en orden según su llegada.
+- SJF (Shortest Job First): Ejecución prioritaria a los procesos con el menor tiempo asignado.
+- Round Robin: Se asigna un tiempo igualitario de ejecución para todos los procesos.
+- Planificación por prioridad: Se asigna una prioridad a cada proceso y se ejecutan respecto a esa prioridad.
+- Planificación garantizada: Se enfoca en la cantidad de usuarios que debe atender.
+- Derivado de MQS (Multiple Queue Scheduling): Una cola de procesos en estado de listos que se divide en varias colas más pequeñas.
+
 ## Almacenamiento
 ### Unidades de almacenamiento
 La unidad mínima de almacenamiento es el bit [b]. El bit es simplemente un cero o uno.
@@ -92,11 +134,11 @@ Los usuarios y sobretodo los programadores buscan una memoria muy rápida, muy g
 
 Parece no existir una memoria que cumpla con los tres factores primordiales, por lo que se tiene que buscar un balance entre los tres factores. 
 Existe un digrama donde se organizan las memorias en una pirámide poniendo los dispositivos de almacenamiento pequeño, rápidos y caros en la punta y conforme desciende los dispositvos de almacenamiento se vuelven más grandes, lentos y baratos.
+
 ![Alt text](https://weblinus.com/wp-content/uploads/2021/02/PiramideMem.jpeg)
 ## Virtualización de CPU, Virtualización de Memoria, Concurrencia y Persistencia
 ### Virtualización de CPU
 La virtualización del CPU hace referencia a una tecnología que permite la ejecución de varias máquinas virtuales sobre una máquina física con el objetivo de aprovechar al máximo los recursos de un sistema y que su rendimiento sea mayor.
-
 ### Virtualización de memoria
 Crear una memoria de función compartida mediante una distribución en la red para que los distintos equipos la utilicen. Ofrece ventajas similares al almacenamiento en red.
 ### Concurrencia
