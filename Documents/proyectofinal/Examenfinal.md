@@ -195,6 +195,7 @@ Ejemplos de dispositos de entrada:
 - Mouse
 - Cámara de video o webcam
 - Lectora de código de barras
+  
   ![Alt text](https://tecnologia-facil.com/wp-content/uploads/2016/01/dispositivos-entrada.y-salida-2.jpg)
 
 ### Dispositivos de salida
@@ -204,6 +205,7 @@ Ejemplos de dispositivos de salida:
 - Bocinas
 - Impresora
 - Robot
+  
   ![Alt text](https://tecnologia-facil.com/wp-content/uploads/2016/01/dispositivos-entrada.y-salida-3.jpg)
 
 ### Dispositivos mixtos
@@ -290,10 +292,13 @@ La virtualización del CPU hace referencia a una tecnología que permite la ejec
 ![Alt text](Imagenes/VirtualizaciónDeCPU.png)
 ### Virtualización de memoria
 Crear una memoria de función compartida mediante una distribución en la red para que los distintos equipos la utilicen. Ofrece ventajas similares al almacenamiento en red.
+![Alt text](Imagenes/VirtualizaciónDeMemoria.png)
 ### Concurrencia
 La habilidad de distintas partes de un proceso de ejecutarse en desorden, sin afectar el resultado final, esto debido a que pueden ser ejecutados en múltiples procesadores o en distintos hilos de ejecución.
+![Alt text](Imagenes/Concurrencia.png)
 ### Persistencia
 Se refiere a la habilidad que tienen los datos de preservar su información de forma permanente.
+![Alt text](Imagenes/Persistencia.png)
 
 ## Personajes importantes para los sistemas operativos
 ### Bill Gates
