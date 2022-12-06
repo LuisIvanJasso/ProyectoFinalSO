@@ -53,7 +53,7 @@ Windows es el sistema operativo para ordenadores de Microsoft y, al igual que el
   Recibió duras críticas debido a sus problemas de estabilidad y seguridad, por lo que supuso un fracaso para Microsoft.
 - **Windows XP (2001)**
   Considerada como una de las versiones más exitosas de Windows; misma razón por la cual Microsoft lanzó una nueva versión hasta 2007 y le dio soporte a ésta hasta el año 2014.
-  Entre sus características se pueden citar un espectacular rediseño, con una estética limpia, y un funcionamiento eficaz y con pocos errores. Aparece también la posibilidad de utilizar varias cuentas de usuario a la vez.
+  Entre sus características se pueden citar un espectacular rediseño, con una estética limpia, y un funcionamiento eficaz y con pocos errores. Aparece también la posibilidad de utilizar varias cuentas de usuario.
   ![Alt text](https://omega2001.es/wp-content/uploads/2021/03/Windows-XP.jpg)
 - **Windows Vista (2007)**
   Después del gran éxito de Windows XP, y a pesar de los años transcurridos entre las dos versiones, la gente no recibió con gran entusiasmo Windows Vista.
@@ -171,10 +171,6 @@ A pesar de existir alrededor de 36 versiones en su historia, únicamente se pres
   El escritorio se compone de una mezcla de aplicaciones de GNOME 41 y 42. El navegador web predeterminado, Firefox, está disponible a través de un paquete snap. Esta versión brinda a los usuarios dos temas Yaru, uno claro y otro oscuro, más diez colores de realce personalizables.
   ![Alt text](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_720/https://lh5.googleusercontent.com/PRglkirUPxt3hRLx-7qNVfGEB6OEPOqwchBMo71LvwDwJve-W0zRLeBnf21c16Kb8b3Vx5LAFaLn6JHy6mfR7a0Lq6Hj0IsUky2pZ_81EeCp80WBOBMqdwYgVMO7nGkHAWgWOIgp)
 
-  
-  
-
-
 ## Comandos básicos de la terminal UNIX
 - cd (Cambiar de carpeta o directorio)
 - cd .. (Retroceder una carpeta o directorio)
@@ -291,12 +287,40 @@ Existe un digrama donde se organizan las memorias en una pirámide poniendo los 
 ## Virtualización de CPU, Virtualización de Memoria, Concurrencia y Persistencia
 ### Virtualización de CPU
 La virtualización del CPU hace referencia a una tecnología que permite la ejecución de varias máquinas virtuales sobre una máquina física con el objetivo de aprovechar al máximo los recursos de un sistema y que su rendimiento sea mayor.
+![Alt text](Imagenes/VirtualizaciónDeCPU.png)
 ### Virtualización de memoria
 Crear una memoria de función compartida mediante una distribución en la red para que los distintos equipos la utilicen. Ofrece ventajas similares al almacenamiento en red.
 ### Concurrencia
 La habilidad de distintas partes de un proceso de ejecutarse en desorden, sin afectar el resultado final, esto debido a que pueden ser ejecutados en múltiples procesadores o en distintos hilos de ejecución.
 ### Persistencia
 Se refiere a la habilidad que tienen los datos de preservar su información de forma permanente.
+
+## Personajes importantes para los sistemas operativos
+### Bill Gates
+Empresario, filántropo e informático estadounidense. En 1976 fundó en Alburquerque su propia empresa de producción de software informático, Microsoft Corporation, con él mismo como presidente y director general. En 1980, Microsoft llegó a un acuerdo con IBM para suministrarle un sistema operativo adaptado a sus nuevos ordenadores personales, el MS-DOS, que desde 1981 iría instalado en todos los ordenadores de la marca. Se generalizó el uso del DOS de Microsoft como soporte de todos los programas de aplicación concretos. En 1983, Gates revoluciona la informática personal con el lanzamiento de una nueva interfaz gráfica llamada a sustituir al DOS, Windows. Recibió la Medalla Nacional de Tecnología de América en 1992 y en 2006 recibe el Premio Príncipe de Asturias de Cooperación Internacional, por la labor de su Fundación Bill y Melinda Gates, una fundación cuyo objetivo es afrontar las crisis globales acumuladas que sacuden al planeta.Ese mismi año, hace pública su intención de abandonar la Dirección de Microsoft hacia 2008 para dedicarse por entero a la fundación, continuando como Presidente Honorario de la misma. El día 27 de junio de 2008 abandona sus labores al frente de Microsoft cediendo el control de la empresa a Steve Ballmer y dedica su tiempo a la Fundación Bill y Melinda Gates. Bill Gates es actualmente el cuarto hombre más rico del mundo con una fortuna de 138.3 mil millones de dólares.
+![Alt text](https://static.nationalgeographicla.com/files/styles/image_3200/public/20-01213_091420-bill-gates-goalkeepers-2020-science_alt.jpg?w=1600)
+### Steve Jobs
+Considerado como uno de los principales genios a nivel mundial en el campo de la informática, Steve Jobs sobresale por haber sido el creador de la reconocida empresa tecnológica Apple. Un hombre muy inteligente que logró ejercer un perfecto liderazgo con el objetivo de posicionarse adecuadamente en el mundo de la innovación y la tecnología.
+A la temprana edad de 21 años, Steve Jobs logró crear una placa base y posteriormente, un ordenador completo, al cual nombró como Apple I, el cual es considerado como el primer ordenador personal del mundo. En el año 1976, logró reunir dinero para poder fundar la empresa conocida como Apple Computer.
+Tras la fundación de Apple Computer, Steve Jobs creó el Apple II y la primera Macintosh, la cual fue considerada como el primer ordenador que tenía una interfaz gráfica de usuario. Posteriormente se dedicó a transformar los teléfonos móviles en dispositivos completamente inteligentes y también dio forma a las tabletas como un tipo de dispositivo intermedio entre una computadora y un móvil. En el año 2010 creó el iMac, el iPod y finalmente el iPad.
+Steve Jobs falleció el 5 de octubre de 2011, a los 56 años, a consecuencia de un paro respiratorio derivado de las metástasis del cáncer neuroendocrino de páncreas que le fue descubierto en 2004, por el que en 2009 había recibido un trasplante de hígado.
+![Alt text](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/02/153345-anecdotas-curiosidades-steve-jobs.jpg)
+### Linus Torvalds
+Linus Benedict Torvalds es un ingeniero de software finlandés-estadounidense, conocido por iniciar y mantener el desarrollo del núcleo o kernel Linux, basándose en el sistema operativo libre Minix creado por Andrew Tanenbaum y en algunas herramientas, varias utilidades y los compiladores desarrollados por el proyecto GNU. Actualmente es responsable de la coordinación del proyecto. 
+En 2005 creó Git, un software de control de versiones, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+Actualmente trabaja para el Open Source Development Labs en Beaverton, Oregón. Solo el 2 % del código del Linux actual está escrito por él, pero, además de su paternidad, en su persona sigue descansando la dirección de la gestión núcleo del sistema operativo.
+![Alt text](https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/f69760c8-2dea-43ce-9594-f02ca4175946/LinusTorvalds_2016-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)
+### Dennis Ritchie
+Dennis MacAlistair Ritchie, graduado de Física y Matemáticas aplicadas de Harvard, fue un científico de la computación estadounidense.
+Entre sus más grandes aportaciones, colaboró en el diseño y desarrollo de los sistemas operativos Multics y Unix, así como el desarrollo de varios lenguajes de programación como el C, tema sobre el cual escribió en un célebre clásico de literatura de las ciencias de la computación junto a Brian Wilson Kernighan, *El lenguaje de programación C*.
+Recibió el Premio Turing de 1983 por su desarrollo de la teoría de sistemas operativos genéricos y su implementación en la forma del sistema Unix. En 1998 le fue concedida la Medalla Nacional de Tecnología de los Estados Unidos de América. Se jubiló en 2007, siendo todavía entonces el jefe del departamento de investigación en software de sistemas de Alcatel-Lucent y falleció en el año 2011 a la edad de 70 años a causa de un cáncer de próstata.
+![Alt text](https://4.bp.blogspot.com/-TDkkcfOUzAA/VcqQdjNkgfI/AAAAAAAAmG4/KZii1SkKowU/s1600/09-09%2BEfemerides%2Bde%2BTecnologia%2BDennis%2BRitchie.jpg)
+### Richard Stallman
+Richard Matthew Stallman es un físico, programador estadounidense, activista y fundador del movimiento del software libre, del sistema operativo GNU y de la Free Software Foundation (Fundación para el Software Libre).
+Entre sus logros destacados como programador se incluye la realización del editor de texto GNU Emacs, el compilador GCC, el depurador GDB y el lenguaje de construcción GNU Make; todos bajo la rúbrica del Proyecto GNU. Sin embargo, es principalmente conocido por el establecimiento de un marco de referencia moral, político y legal para el software libre.
+Su innovador trabajo y activismo en torno al software libre y los derechos digitales le han merecido numerosas distinciones; incluyendo más de una docena de doctorados y profesorados honoríficos, la prestigiosa beca de la Fundación MacArthur, el premio Pioneer de la Electronic Frontier Foundation y varios premios de la ACM. Es miembro del salón de la fama de Internet.
+![Alt text](https://www.infoblancosobrenegro.com/uploads/noticias/5/2020/08/richard.jpg)
+
 ## Instalación de Ubuntu
 ### Requerimientos
 - Descargar Ubuntu Desktop 20.04 ISO image para arquitectura de x86_64bits
