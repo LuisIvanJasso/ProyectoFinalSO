@@ -301,7 +301,7 @@ Para convertir una unidad menor a una mayor se divide entre la cantidad indicada
 ## Jerarquía de memoria
 **SRAM**: Static Random Access Memory, más conocida por sus siglas SRAM, es una memoria volátil, que quiere decir que los datos se pierden cuando es apagado el dispositivo. Se utliza para implementar la cache.
 
-**SDRAM**: Synchronous Dyanamic Random Access Memory, más conocida como SDRAM, se utliza para implementar la memoria principal.
+**SDRAM**: Synchronous Dynamic Random Access Memory, más conocida como SDRAM, se utliza para implementar la memoria principal.
 Los usuarios y sobretodo los programadores buscan una memoria muy rápida, muy grande y bajo costo. Sin embargo, al buscar esto, se introduce el siguiente paradigma:
 - Muy rápida = Pequeña + cara
 - Muy grande = Lenta + barata
@@ -364,7 +364,7 @@ Su innovador trabajo y activismo en torno al software libre y los derechos digit
 - **Paso 3**: Asignar la cantidad de MB que se desea asignar a la nueva partición.
   
   ![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Shrink-Windows-Partition.png)
-- **Paso 4**: Tras la asignación de alamcenamiento, aparecerá la nueva partición como "Unallocated" que significa "no asignado".
+- **Paso 4**: Tras la asignación de almacenamiento, aparecerá la nueva partición como "Unallocated" que significa "no asignado".
   
   ![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/New-Unallocated-Partition.png)
 ### Instalación y configuración de Ubuntu
