@@ -211,7 +211,7 @@ A pesar de existir alrededor de 36 versiones en su historia, únicamente se pres
 ## Dispositos de entrada/salida
 ### Dispositivos de entrada
 Los dispositivos de entrada son aquellos equipos encargados de introducir datos en la memoria central de la computadora para su tratamiento. A través de ellos se transforma la información de entrada en señales eléctricas.
-Ejemplos de dispositos de entrada:
+Ejemplos de dispositivos de entrada:
 - Teclado
 - Mouse
 - Cámara de video o webcam
@@ -270,6 +270,7 @@ Un proceso puede tener subprocesos con sus propias series de instrucciones y con
 
 ### Interrupciones y planificadores de procesos
 **Interrupción**: Señal recibida por el procesador de una computadora que indica que debe interrumpir el curso de ejecución actual y pasar a ejecutar código específico para tratar esta situación.
+
 **Planificador de procesos**: Forma en que se pueden acomodar los procesos para ser ejecutados. Existen varios tipos:
 - FCFS (First Come First Served)/FIFO (First In First Out): Ejecución de procesos en orden según su llegada.
 - SJF (Shortest Job First): Ejecución prioritaria a los procesos con el menor tiempo asignado.
@@ -287,6 +288,7 @@ A pesar de que teóricamente las unidades de almacenamiento pueden subir de form
 ![Alt text](https://i.ytimg.com/vi/yK9fvJ7Mmhg/maxresdefault.jpg)
 ### Tabla de conversiones de almacenamiento
 Para convertir una unidad menor a una mayor se divide entre la cantidad indicada y para convertir una unidad mayor a una menor se multiplica por la cantidad indicada.
+
 ![Alt text](https://4.bp.blogspot.com/-TkQXe0rIK9U/WPqd-tb2zNI/AAAAAAAAB0c/ZUtnahEDzCY_7QbGmIZ6Udssld2PJ6XaACLcB/s1600/Unidades.PNG)
 ### Dispositivos de almacenamiento
 - Disco duro
