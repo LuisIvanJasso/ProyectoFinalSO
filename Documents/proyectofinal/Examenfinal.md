@@ -1,7 +1,9 @@
 # Sistemas Operativos-Proyecto Final
 ![Alt text](https://moodle2017.ulsachihuahua.edu.mx/pluginfile.php/1/theme_klass/logo/1621267714/4_IMAGOTIPO_LASALLE_CHIHUAHUA_COLOR_RGB_2020.png)
 **Luis Iván Jasso López**
+
 **11995**
+
 **ITIT**
 ## ¿Qué hace un sistema operativo?
 Un sistema operativo es una interfaz o programa que permite al usuario trabajar con los componentes de un dispositivo electrónico.
