@@ -407,3 +407,5 @@ Su innovador trabajo y activismo en torno al software libre y los derechos digit
 - **Paso 12**: Tras reiniciar el equipo, la pantalla del GNU GRUB debe aparecer y se elige la opción de Ubuntu. De no aparecer el menú GNU GRUB, se debe reinicar el equipo nuevamente y en la BIOS cambiar la prioridad de inicio. Con esto se habrá completado la instalación y configuración de Ubuntu.
   
   ![Alt text](https://www.tecmint.com/wp-content/uploads/2018/05/Ubuntu-Grub-Menu.png)
+
+**He terminado mi examen final**
