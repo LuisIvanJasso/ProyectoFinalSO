@@ -299,6 +299,9 @@ Para convertir una unidad menor a una mayor se divide entre la cantidad indicada
 - Disquete
 
 ## Jerarquía de memoria
+**SRAM**: Static Random Access Memory, más conocida por sus siglas SRAM, es una memoria volátil, que quiere decir que los datos se pierden cuando es apagado el dispositivo. Se utliza para implementar la cache.
+
+**SDRAM**: Synchronous Dyanamic Random Access Memory, más conocida como SDRAM, se utliza para implementar la memoria principal.
 Los usuarios y sobretodo los programadores buscan una memoria muy rápida, muy grande y bajo costo. Sin embargo, al buscar esto, se introduce el siguiente paradigma:
 - Muy rápida = Pequeña + cara
 - Muy grande = Lenta + barata
